@@ -1,0 +1,29 @@
+{
+  "name": "webflow-html-converter",
+  "version": "1.0.0",
+  "description": "Convert HTML and CSS to native Webflow elements using the Webflow Designer API",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node src/test.js",
+    "build": "webpack --mode production",
+    "configure": "node scripts/configure.js",
+    "deploy": "node scripts/deploy.js"
+  },
+  "keywords": [
+    "webflow",
+    "html",
+    "css",
+    "converter",
+    "designer-api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "postcss": "^8.4.31"
+  },
+  "devDependencies": {
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}

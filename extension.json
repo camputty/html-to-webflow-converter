@@ -1,0 +1,19 @@
+{
+  "name": "HTML/CSS to Webflow Converter",
+  "version": "1.0.0",
+  "description": "Convert HTML and CSS to native Webflow elements using the style panel",
+  "author": {
+    "name": "Your Name",
+    "email": "your.email@example.com"
+  },
+  "icon": "icon.svg",
+  "main": "index.js",
+  "permissions": [
+    "read:project",
+    "write:project",
+    "read:elements",
+    "write:elements",
+    "read:styles",
+    "write:styles"
+  ]
+}
