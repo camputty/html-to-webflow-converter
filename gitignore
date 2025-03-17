@@ -1,0 +1,7 @@
+# Create a .gitignore file in your project root
+echo "node_modules/" > .gitignore
+
+# You might want to add other common files to ignore
+echo "dist/" >> .gitignore
+echo ".DS_Store" >> .gitignore
+echo "*.log" >> .gitignore
